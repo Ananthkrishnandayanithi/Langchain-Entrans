@@ -1,0 +1,13 @@
+faiss-cpu
+groq
+langchain-groq
+PyPDF2
+langchain
+streamlit==1.23.0
+langchain_community
+python-dotenv
+pyngrok
+rouge-score
+nltk
+langchain
+langchain-google-genai
