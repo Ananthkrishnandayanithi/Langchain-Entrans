@@ -9,7 +9,10 @@ load_dotenv()
 # Set up API keys
 groq_api_key = os.getenv("GOQ_API_KEY")
 os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
-
+LANGCHAIN_TRACING_V2="true"
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY="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"
+LANGCHAIN_PROJECT="pr-enchanted-casserole-97"
 # Initialize Langchain Google Generative AI model
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.schema import HumanMessage
